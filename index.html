@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,23 +7,34 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header #cabeçalho>
-      <h1 #titulo>Blog de Renan Croffi</h1>
-      <nav #navegacao>
-        <a href="index.html">Home</a> | <a href="post.html">Blog</a> |
-        <a href="sobre.html">Sobre</a>
-      </nav>
+    <header>
+      <div class="container">
+        <h1>Blog de Renan Croffi</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="ativo">Início</a></li>
+            <li><a href="post.html">Blog</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
+    <main class="container">
       <article>
         <h2>Artigo 1</h2>
         <p>Este é o conteúdo do artigo 1.</p>
         <p>Data: 01/01/2023</p>
         <nav>
-          <a href="post.html">Leia mais</a>
+          <a href="post.html" class="leia-mais">Leia mais</a>
         </nav>
       </article>
     </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Renan Croffi. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>

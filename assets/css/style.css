@@ -1,7 +1,91 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #111111;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-#header {
-  text-align: left;
-  
+
+.container {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  border-bottom: 1px solid #cccccc;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  color: #111111;
+}
+
+header nav a.ativo {
+  color: #111111;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+}
+
+main.container {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+footer {
+  border-top: 1px solid #cccccc;
+}
+
+footer .container {
+  padding: 24px 20px;
+}
+
+footer p {
+  margin: 0;
+  color: #666666;
+  font-size: 15px;
+}
+
+.leia-mais {
+  color: #111111;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.leia-mais:hover {
+  color: #666666;
 }
