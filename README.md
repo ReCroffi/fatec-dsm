@@ -49,3 +49,7 @@ Para a elaboração desse projeto foi usado HTML para a criação das paginas we
 ├── README.md
 └── sobre.html
 ```
+
+## Cores Utilizadas
+
+![Cores](assets/img/cores.png)
