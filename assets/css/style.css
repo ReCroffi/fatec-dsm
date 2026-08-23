@@ -114,3 +114,10 @@ footer p {
   height: auto;
   margin-bottom: 24px;
 }
+
+#miniatura {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-bottom: 24px;
+}
