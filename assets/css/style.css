@@ -107,3 +107,10 @@ footer p {
 .voltar:hover {
   color: #666666;
 }
+
+#webdev {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
