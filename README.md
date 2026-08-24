@@ -1,0 +1,35 @@
+# FATEC DSM — Desenvolvimento de Software Multiplataforma
+
+Materiais, exercícios e atividades do curso de **Tecnologia em Desenvolvimento de
+Software Multiplataforma** — FATEC Olímpia/SP.
+
+Um diretório por semestre, um subdiretório por matéria. Cada matéria tem seu
+próprio `README.md` com o que foi feito ali.
+
+> O **projeto integrador** não mora aqui: por ser trabalho em grupo e ter vida
+> própria, fica em [ReCroffi/projeto-1-semestre](https://github.com/ReCroffi/projeto-1-semestre).
+
+---
+
+## 1º semestre — 2026/1
+
+| Matéria | Conteúdo | Status |
+|---|---|---|
+| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS + Situação de Aprendizagem 1 (blog pessoal) | ✅ com material |
+| [Algoritmos e Lógica de Programação](1-semestre/algoritmos/) | — | 🔜 |
+| [Modelagem de Banco de Dados](1-semestre/modelagem-bd/) | — | 🔜 |
+| [Engenharia de Software I](1-semestre/eng-software/) | — | 🔜 |
+| [Sistemas Operacionais e Redes](1-semestre/so-redes/) | — | 🔜 |
+| [Design Digital](1-semestre/design-digital/) | — | 🔜 |
+
+---
+
+## Histórico
+
+Este repositório reúne conteúdo que antes estava espalhado em repos separados.
+O histórico de commits original foi preservado via `git subtree`:
+
+- `ReCroffi/Dev_Web_FATEC` → `1-semestre/dev-web/aulas/`
+- `ReCroffi/situacao-aprendizagem-1` → `1-semestre/dev-web/situacao-aprendizagem-1/`
+
+Ambos foram arquivados no GitHub; as URLs antigas continuam acessíveis em modo leitura.
