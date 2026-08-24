@@ -15,7 +15,7 @@ próprio `README.md` com o que foi feito ali.
 
 | Matéria | Conteúdo | Status |
 |---|---|---|
-| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS + Situação de Aprendizagem 1 (blog pessoal) | ✅ com material |
+| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS (SA1 em andamento, em repo próprio) | ✅ com material |
 | [Algoritmos e Lógica de Programação](1-semestre/algoritmos/) | — | 🔜 |
 | [Modelagem de Banco de Dados](1-semestre/modelagem-bd/) | — | 🔜 |
 | [Engenharia de Software I](1-semestre/eng-software/) | — | 🔜 |
@@ -29,7 +29,8 @@ próprio `README.md` com o que foi feito ali.
 Este repositório reúne conteúdo que antes estava espalhado em repos separados.
 O histórico de commits original foi preservado via `git subtree`:
 
-- `ReCroffi/Dev_Web_FATEC` → `1-semestre/dev-web/aulas/`
-- `ReCroffi/situacao-aprendizagem-1` → `1-semestre/dev-web/situacao-aprendizagem-1/`
+- `ReCroffi/Dev_Web_FATEC` → `1-semestre/dev-web/aulas/` (repo original arquivado)
 
-Ambos foram arquivados no GitHub; as URLs antigas continuam acessíveis em modo leitura.
+Atividades ainda **em andamento** ficam em repositório próprio até a entrega, e só então
+são dobradas para cá — hoje é o caso da
+[Situação de Aprendizagem 1](https://github.com/ReCroffi/situacao-aprendizagem-1).
