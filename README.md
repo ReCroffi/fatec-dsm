@@ -6,8 +6,9 @@ Software Multiplataforma** — FATEC Olímpia/SP.
 Um diretório por semestre, um subdiretório por matéria. Cada matéria tem seu
 próprio `README.md` com o que foi feito ali.
 
-> O **projeto integrador** não mora aqui: por ser trabalho em grupo e ter vida
-> própria, fica em [ReCroffi/projeto-1-semestre](https://github.com/ReCroffi/projeto-1-semestre).
+> O **projeto integrador** não mora aqui: é construído ao longo de todo o curso, em grupo,
+> e tem vida própria em [ReCroffi/projeto-1-semestre](https://github.com/ReCroffi/projeto-1-semestre)
+> — que será renomeado para o nome do produto quando o escopo fechar.
 
 ---
 
