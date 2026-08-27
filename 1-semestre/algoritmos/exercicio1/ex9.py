@@ -20,4 +20,4 @@ n1, n2, n3 = notas()
 media = calculo_media(n1, n2, n3)
 aprovacao = aprov(media)
 
-print(f"A média do aluno é {media}, e ele está {aprovacao}")
+print(f"A média do aluno é {media:.2f}, e ele está {aprovacao}")
