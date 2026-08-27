@@ -3,6 +3,7 @@ def compras():
     valor = float(input("Entre o valor individual do item: "))
     return item, valor
 
+
 def total(quant, preco):
     return quant * preco
 

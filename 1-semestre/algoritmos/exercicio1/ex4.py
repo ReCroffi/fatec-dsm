@@ -2,8 +2,10 @@ def entrada():
     n1 = int(input("Entre o número: "))
     return n1
 
+
 def check(num):
-    return num-1, num+1
+    return num - 1, num + 1
+
 
 num = entrada()
 
