@@ -4,10 +4,10 @@ def notas():
     n3 = float(input("Nota 3: "))
     return n1,n2,n3
 
-def media(n1,n2,n3):
+def calcular_media(n1,n2,n3):
     return (n1+n2+n3)/3
 
 n1, n2, n3 = notas()
 
-media = round(media(n1,n2,n3), 2)
+media = round(calcular_media(n1,n2,n3), 2)
 print(f"A média do aluno é: {media}")
