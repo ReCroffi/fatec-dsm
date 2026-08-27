@@ -10,11 +10,10 @@ def calculo_media(n1, n2, n3):
 
 
 def aprov(media):
-    match media:
-        case media if media >= 6:
-            return "Aprovado"
-        case _:
-            return "Reprovado"
+    if media >= 6:
+        return "Aprovado"
+    else:
+        return "Reprovado"
 
 
 n1, n2, n3 = notas()
