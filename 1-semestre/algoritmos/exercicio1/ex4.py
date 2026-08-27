@@ -3,7 +3,7 @@ def entrada():
     return n1
 
 def check(num):
-    return num+1, num-1
+    return num-1, num+1
 
 num = entrada()
 

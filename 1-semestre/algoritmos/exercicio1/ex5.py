@@ -1,6 +1,6 @@
 def compras():
     item = int(input("Entre a quantidade de itens: "))
-    valor = int(input("Entre o valor individual do item: "))
+    valor = float(input("Entre o valor individual do item: "))
     return item, valor
 
 def total(quant, preco):

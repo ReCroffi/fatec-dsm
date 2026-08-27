@@ -17,7 +17,7 @@ continua sendo o PDF em pseudocódigo, os `.py` são a versão praticada na ling
 - Enunciado: [`25_08 Atividade Algoritmos.pdf`](exercicio1/25_08%20Atividade%20Algoritmos.pdf)
 - Entrega em pseudocódigo + teste de mesa: [`Exercicios_algoritmo_renan_croffi.pdf`](exercicio1/Exercicios_algoritmo_renan_croffi.pdf)
 
-São 16 exercícios. Progresso da versão em Python: **3 de 16**.
+São 16 exercícios. Progresso da versão em Python: **5 de 16**.
 
 ### Parte A — operadores matemáticos
 
@@ -26,8 +26,8 @@ São 16 exercícios. Progresso da versão em Python: **3 de 16**.
 | 1 | Dois números: soma, subtração, multiplicação e divisão | 20 e 4 | [`ex1.py`](exercicio1/ex1.py) |
 | 2 | Área de um retângulo | 8 e 5 | [`ex2.py`](exercicio1/ex2.py) |
 | 3 | Média de três notas | 7, 5 e 8 | [`ex3.py`](exercicio1/ex3.py) |
-| 4 | Antecessor e sucessor de um inteiro | 10 | — |
-| 5 | Total da compra: preço × quantidade | 25 e 4 | — |
+| 4 | Antecessor e sucessor de um inteiro | 10 | [`ex4.py`](exercicio1/ex4.py) |
+| 5 | Total da compra: preço × quantidade | 25 e 4 | [`ex5.py`](exercicio1/ex5.py) |
 | 6 | Celsius para Fahrenheit | 25 °C | — |
 | 7 | Área do trapézio | 10, 6 e 4 | — |
 | 8 | Ler o nome e mostrar "Olá, \<nome\>" | entrada e saída | — |
