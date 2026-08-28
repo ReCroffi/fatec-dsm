@@ -4,14 +4,14 @@ def ler_media_frequencia():
     return media, frequencia
 
 
-def classificar_aprovacao(nota, frequencia):
-    if nota >= 6 and frequencia >= 75:
+def classificar_aprovacao(media, frequencia):
+    if media >= 6 and frequencia >= 75:
         return "Aprovado"
     else:
         return "Reprovado"
 
 
 if __name__ == "__main__":
-    med, freq = ler_media_frequencia()
-    classificacao = classificar_aprovacao(med, freq)
+    media, frequencia = ler_media_frequencia()
+    classificacao = classificar_aprovacao(media, frequencia)
     print(classificacao)

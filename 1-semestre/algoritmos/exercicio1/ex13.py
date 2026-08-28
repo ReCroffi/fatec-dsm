@@ -1,5 +1,5 @@
 def ler_nota():
-    return round(float(input("Ente com a nota: ")), 2)
+    return round(float(input("Entre com a nota: ")), 2)
 
 
 def classificar_nota(nota):
