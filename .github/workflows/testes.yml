@@ -1,0 +1,26 @@
+name: testes
+
+on:
+  push:
+    paths:
+      - "1-semestre/algoritmos/**"
+      - ".github/workflows/testes.yml"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Instala o pytest
+        run: pip install pytest
+
+      - name: Roda os testes de mesa
+        run: pytest -v
+        working-directory: 1-semestre/algoritmos/exercicio1

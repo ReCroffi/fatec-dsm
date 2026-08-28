@@ -1,5 +1,7 @@
 # FATEC DSM — Desenvolvimento de Software Multiplataforma
 
+[![testes](https://github.com/ReCroffi/fatec-dsm/actions/workflows/testes.yml/badge.svg)](https://github.com/ReCroffi/fatec-dsm/actions/workflows/testes.yml)
+
 Materiais, exercícios e atividades do curso de **Tecnologia em Desenvolvimento de
 Software Multiplataforma** — FATEC Olímpia/SP.
 
