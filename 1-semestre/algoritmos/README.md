@@ -17,7 +17,7 @@ continua sendo o PDF em pseudocódigo, os `.py` são a versão praticada na ling
 - Enunciado: [`25_08 Atividade Algoritmos.pdf`](exercicio1/25_08%20Atividade%20Algoritmos.pdf)
 - Entrega em pseudocódigo + teste de mesa: [`Exercicios_algoritmo_renan_croffi.pdf`](exercicio1/Exercicios_algoritmo_renan_croffi.pdf)
 
-São 16 exercícios. Progresso da versão em Python: **9 de 16** — Parte A concluída, Parte B em andamento.
+São 16 exercícios. Progresso da versão em Python: **11 de 16** — Parte A concluída, Parte B em andamento.
 
 ### Parte A — operadores matemáticos
 
@@ -37,8 +37,8 @@ São 16 exercícios. Progresso da versão em Python: **9 de 16** — Parte A con
 | # | Problema | Teste de mesa | Python |
 |---|---|---|---|
 | 9 | Média: aprovado (>= 6) ou reprovado | 7 e 5 | [`ex9.py`](exercicio1/ex9.py) |
-| 10 | Número: positivo, negativo ou zero | 3 testes | — |
-| 11 | Maior entre dois números, considerando igualdade | 3 testes | — |
+| 10 | Número: positivo, negativo ou zero | 5, -3 e 0 | [`ex10.py`](exercicio1/ex10.py) |
+| 11 | Maior entre dois números, considerando igualdade | 8 e 3, 3 e 8, 4 e 4 | [`ex11.py`](exercicio1/ex11.py) |
 | 12 | Maior de idade | abaixo e acima de 18 | — |
 | 13 | Situação por faixas de nota | uma entrada por faixa | — |
 | 14 | Aprovação: nota >= 6 **E** frequência >= 75 | 4 casos V/F | — |
