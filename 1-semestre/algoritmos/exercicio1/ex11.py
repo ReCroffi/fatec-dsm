@@ -8,12 +8,12 @@ def check(n1, n2):
     if n1 > n2:
         return f"{n1} é maior que {n2}"
     elif n1 == n2:
-        return f"{n1} é igual {n2}"
+        return f"{n1} é igual a {n2}"
     else:
         return f"{n1} é menor que {n2}"
 
 
-n1, n2 = entrada()
-
-verif = check(n1, n2)
-print(f"{verif}")
+if __name__ == "__main__":
+    n1, n2 = entrada()
+    verif = check(n1, n2)
+    print(verif)
