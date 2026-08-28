@@ -17,7 +17,7 @@ continua sendo o PDF em pseudocódigo, os `.py` são a versão praticada na ling
 - Enunciado: [`25_08 Atividade Algoritmos.pdf`](exercicio1/25_08%20Atividade%20Algoritmos.pdf)
 - Entrega em pseudocódigo + teste de mesa: [`Exercicios_algoritmo_renan_croffi.pdf`](exercicio1/Exercicios_algoritmo_renan_croffi.pdf)
 
-São 16 exercícios. Progresso da versão em Python: **11 de 16** — Parte A concluída, Parte B em andamento.
+São 16 exercícios. Progresso da versão em Python: **16 de 16** — Partes A e B concluídas.
 
 ### Parte A — operadores matemáticos
 
@@ -39,11 +39,11 @@ São 16 exercícios. Progresso da versão em Python: **11 de 16** — Parte A co
 | 9 | Média: aprovado (>= 6) ou reprovado | 7 e 5 | [`ex9.py`](exercicio1/ex9.py) |
 | 10 | Número: positivo, negativo ou zero | 5, -3 e 0 | [`ex10.py`](exercicio1/ex10.py) |
 | 11 | Maior entre dois números, considerando igualdade | 8 e 3, 3 e 8, 4 e 4 | [`ex11.py`](exercicio1/ex11.py) |
-| 12 | Maior de idade | abaixo e acima de 18 | — |
-| 13 | Situação por faixas de nota | uma entrada por faixa | — |
-| 14 | Aprovação: nota >= 6 **E** frequência >= 75 | 4 casos V/F | — |
-| 15 | Desconto: VIP **OU** compra > 100 | 4 casos V/F | — |
-| 16 | Acesso: login **E** senha **E NÃO** bloqueado | combinações | — |
+| 12 | Maior de idade | 17, 18 e 19 | [`ex12.py`](exercicio1/ex12.py) |
+| 13 | Situação por faixas de nota | 4, 6 e 8 — uma por faixa | [`ex13.py`](exercicio1/ex13.py) |
+| 14 | Aprovação: nota >= 6 **E** frequência >= 75 | 7/80, 7/50, 5/80, 5/50 | [`ex14.py`](exercicio1/ex14.py) |
+| 15 | Desconto: VIP **OU** compra > 100 | 150/S, 150/N, 50/S, 50/N | [`ex15.py`](exercicio1/ex15.py) |
+| 16 | Acesso: login **E** senha **E NÃO** bloqueado | as 8 combinações de login, senha e bloqueio | [`ex16.py`](exercicio1/ex16.py) |
 
 ---
 
@@ -57,3 +57,8 @@ python3 exercicio1/ex1.py
 
 Os scripts leem os valores por `input()` — use os testes de mesa da tabela acima
 para conferir se a saída bate com a do pseudocódigo.
+
+Cada exercício separa as funções (fora da guarda `if __name__ == "__main__"`) do
+roteiro de entrada e saída, então dá para importar qualquer um e chamar as funções
+direto. Para testar com pytest existe uma venv local em `exercicio1/.venv/`
+(fora do versionamento): `python3 -m venv .venv && .venv/bin/pip install pytest`.
