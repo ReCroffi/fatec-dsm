@@ -1,14 +1,14 @@
-def entrada():
-    n1 = int(input("Entre o número: "))
-    return n1
+def ler_numero():
+    return int(input("Entre o número: "))
 
 
-def check(num):
+def antecessor_e_sucessor(num):
     return num - 1, num + 1
 
 
-num = entrada()
+if __name__ == "__main__":
+    num = ler_numero()
 
-ant, suc = check(num)
+    ant, suc = antecessor_e_sucessor(num)
 
-print(f"O antecessor de {num} é {ant} e o sucessor é {suc}")
+    print(f"O antecessor de {num} é {ant} e o sucessor é {suc}")

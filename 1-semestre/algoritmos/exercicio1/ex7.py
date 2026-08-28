@@ -1,14 +1,17 @@
-def entrada():
+def ler_dimensoes():
     base_maior = float(input("Entre com a base maior: "))
     base_menor = float(input("Entre com a base menor: "))
     altura = float(input("Entre a altura: "))
     return base_maior, base_menor, altura
 
 
-def area(b, bm, h):
-    return ((b + bm) * h) / 2
+def calcular_area(base_maior, base_menor, altura):
+    return ((base_maior + base_menor) * altura) / 2
 
 
-b, bm, h = entrada()
-area_calculada = area(b, bm, h)
-print(f"A área do trapézio é {area_calculada}")
+if __name__ == "__main__":
+    base_maior, base_menor, altura = ler_dimensoes()
+
+    area = calcular_area(base_maior, base_menor, altura)
+
+    print(f"A área do trapézio é {area}")

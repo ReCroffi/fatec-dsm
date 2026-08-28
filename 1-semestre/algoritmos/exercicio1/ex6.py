@@ -1,13 +1,14 @@
-def tempC():
-    t = float(input("Entre a temperatura em Celsius: "))
-    return t
+def ler_temperatura():
+    return float(input("Entre a temperatura em Celsius: "))
 
 
-def converter(temp):
-    tf = (9 / 5 * temp) + 32
-    return tf
+def celsius_para_fahrenheit(celsius):
+    return (9 / 5 * celsius) + 32
 
 
-temperatura = tempC()
-tempF = converter(temp=temperatura)
-print(f"{temperatura}ºC em Fahrenheit é: {tempF}")
+if __name__ == "__main__":
+    temperatura = ler_temperatura()
+
+    fahrenheit = celsius_para_fahrenheit(temperatura)
+
+    print(f"{temperatura}ºC em Fahrenheit é: {fahrenheit}")

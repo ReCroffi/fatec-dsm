@@ -1,8 +1,8 @@
-def entrada():
+def ler_numero():
     return int(input("Entre com o número: "))
 
 
-def check(num):
+def classificar_numero(num):
     if num > 0:
         return "Positivo"
     elif num < 0:
@@ -11,8 +11,9 @@ def check(num):
         return "Igual a Zero"
 
 
-n = entrada()
+if __name__ == "__main__":
+    num = ler_numero()
 
-verificacao = check(num=n)
+    classificacao = classificar_numero(num)
 
-print(f"{n} é {verificacao}")
+    print(f"{num} é {classificacao}")
