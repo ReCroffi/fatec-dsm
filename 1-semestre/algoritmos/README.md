@@ -60,5 +60,13 @@ para conferir se a saída bate com a do pseudocódigo.
 
 Cada exercício separa as funções (fora da guarda `if __name__ == "__main__"`) do
 roteiro de entrada e saída, então dá para importar qualquer um e chamar as funções
-direto. Para testar com pytest existe uma venv local em `exercicio1/.venv/`
-(fora do versionamento): `python3 -m venv .venv && .venv/bin/pip install pytest`.
+direto. Os testes de mesa estão automatizados em
+[`exercicio1/test_exercicio1.py`](exercicio1/test_exercicio1.py):
+
+```bash
+cd exercicio1
+python3 -m venv .venv && .venv/bin/pip install pytest   # só na primeira vez
+.venv/bin/pytest -v
+```
+
+A venv fica em `exercicio1/.venv/`, fora do versionamento.
