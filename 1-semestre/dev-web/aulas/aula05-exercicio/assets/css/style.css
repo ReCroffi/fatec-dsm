@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .titulo {
   color: coral;
   text-align: center;
@@ -12,5 +16,8 @@
   font-size: 22px;
   font-family: "Courier New", Courier, monospace;
 }
-nav {
+nav > ul {
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
 }
