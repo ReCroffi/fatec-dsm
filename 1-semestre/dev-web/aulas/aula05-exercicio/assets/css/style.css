@@ -1,0 +1,16 @@
+.titulo {
+  color: coral;
+  text-align: center;
+}
+#Descrição {
+  font-size: 35px;
+}
+.paragrafo-simples {
+  background-color: aquamarine;
+  color: coral;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+}
