@@ -4,7 +4,7 @@ Professor: Rodrigo Attique — FATEC Olímpia/SP, 1º semestre de DSM.
 
 | Pasta | O que é |
 |---|---|
-| [`aulas/`](aulas/) | Registros das aulas: introdução à Web, HTML, semântica, listas e links, CSS — uma pasta por aula |
+| [`aulas/`](aulas/) | Registros das aulas: introdução à Web, HTML, semântica, listas e links, CSS e o exercício de seletores — uma pasta por aula |
 
 ## Situação de Aprendizagem 1
 

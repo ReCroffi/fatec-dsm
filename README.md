@@ -18,7 +18,7 @@ próprio `README.md` com o que foi feito ali.
 
 | Matéria | Conteúdo | Status |
 |---|---|---|
-| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS (SA1 em andamento, em repo próprio) | ✅ com material |
+| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS até a Aula 05, com o exercício de seletores (SA1 em andamento, em repo próprio) | ✅ com material |
 | [Algoritmos e Lógica de Programação](1-semestre/algoritmos/) | Exercícios da Aula 05 refeitos em Python (16 de 16) | ✅ com material |
 | [Modelagem de Banco de Dados](1-semestre/modelagem-bd/) | — | 🔜 |
 | [Engenharia de Software I](1-semestre/eng-software/) | — | 🔜 |
