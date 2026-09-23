@@ -5,6 +5,18 @@
 #include <stdio.h>
 
 int main(void) {
+    int n1, n2;
+    printf("Entre n1: \n");
+    scanf("%d", &n1);
+    printf("Entre n2: \n");
+    scanf("%d", &n2);
+    if (n1 > n2) {
+        printf("%i é maior que %i", n1, n2);
+    } else if (n1 < n2) {
+        printf("%i é menor que %i", n1, n2);
+    } else {
+        printf("%i é igual %i", n1, n2);
+    }
 
     return 0;
 }

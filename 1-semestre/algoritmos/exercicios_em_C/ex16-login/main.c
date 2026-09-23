@@ -7,6 +7,24 @@
 #include <stdio.h>
 
 int main(void) {
+    int login;
+    int senha;
+    int bloqueado;
+
+    printf("O login esta correto? (1-SIM / 0-NAO): ");
+    scanf("%d", &login);
+
+    printf("A senha esta correta? (1-SIM / 0-NAO): ");
+    scanf("%d", &senha);
+
+    printf("Usuario bloqueado? (1-SIM / 0-NAO): ");
+    scanf("%d", &bloqueado);
+
+    if (login == 1 && senha == 1 && bloqueado == 0) {
+        printf("Login correto");
+    } else {
+        printf("Login incorreto");
+    }
 
     return 0;
 }

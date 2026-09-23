@@ -6,6 +6,16 @@
 #include <stdio.h>
 
 int main(void) {
-
+    int freq;
+    float nota;
+    printf("Entre a nota: \n");
+    scanf("%f", &nota);
+    printf("Entre a frequencia: \n");
+    scanf("%d", &freq);
+    if (nota >= 6 && freq >= 75) {
+        printf("Aprovado");
+    } else {
+        printf("Reprovado");
+    }
     return 0;
 }

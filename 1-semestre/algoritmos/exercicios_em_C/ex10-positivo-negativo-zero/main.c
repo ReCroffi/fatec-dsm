@@ -5,6 +5,16 @@
 #include <stdio.h>
 
 int main(void) {
-
+    int n;
+    printf("Entre um número: \n");
+    scanf("%d", &n);
+    if (n > 0) {
+        printf("Esse número é positivo");
+    } else if (n < 0) {
+        printf("Esse número é negativo");
+    } else {
+        printf("Esse numero é zero");
+    }
     return 0;
 }
+    

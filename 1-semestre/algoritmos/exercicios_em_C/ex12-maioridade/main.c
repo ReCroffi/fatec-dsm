@@ -5,6 +5,14 @@
 #include <stdio.h>
 
 int main(void) {
+    int idade;
+    printf("Entre a idade: \n");
+    scanf("%i", &idade);
+    if (idade >= 18) {
+        printf("Maior de idade");
+    } else {
+        printf("Menor de idade");
+    }
 
     return 0;
 }
