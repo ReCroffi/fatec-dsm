@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C: compilar arquivo atual",
+      "type": "shell",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-std=c17",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": { "cwd": "${fileDirname}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "detail": "gcc -Wall -Wextra -Wpedantic -g (usada tambem pelo debug)"
+    },
+    {
+      "label": "C: compilar e rodar arquivo atual",
+      "type": "shell",
+      "command": "/usr/bin/gcc -std=c17 -Wall -Wextra -Wpedantic -g '${file}' -o '${fileDirname}/${fileBasenameNoExtension}' && '${fileDirname}/${fileBasenameNoExtension}'",
+      "options": { "cwd": "${fileDirname}" },
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true,
+        "focus": true
+      },
+      "detail": "roda no terminal integrado, entao o scanf le do teclado normalmente"
+    }
+  ]
+}

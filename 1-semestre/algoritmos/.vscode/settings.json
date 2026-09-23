@@ -1,0 +1,32 @@
+{
+  // --- C ---
+  // formatter do cpptools (clang-format embutido). Precisa ser explicito:
+  // o editor.formatOnSave global fica ligado, e sem isso o VS Code pergunta
+  // qual formatter usar toda vez que salva um .c
+  "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+
+  // IntelliSense: mesmo padrao/compilador do Makefile e das tasks
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+  "C_Cpp.default.cStandard": "c17",
+
+  // sem isso o VS Code as vezes abre .c/.h como C++ e o IntelliSense
+  // aceita coisa que o gcc em modo C recusa
+  "files.associations": { "*.c": "c", "*.h": "c" },
+
+  // binarios compilados nao aparecem na busca nem no explorer
+  "files.exclude": { "**/exercicios_em_C/ex*/main": true },
+
+  // --- code runner (Ctrl+Alt+N) ---
+  // runInTerminal TEM que ser true: no painel Output o programa nao recebe
+  // teclado, e todo exercicio aqui le com scanf
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  // mesmas flags do Makefile e das tasks, incluindo o
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc -std=c17 -Wall -Wextra -Wpedantic -g $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+  }
+}

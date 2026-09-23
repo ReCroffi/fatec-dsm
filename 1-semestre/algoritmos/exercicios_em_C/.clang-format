@@ -1,0 +1,8 @@
+# estilo de formatacao usado pelo formatOnSave (clang-format do cpptools)
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 90
+AlignConsecutiveDeclarations: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+InsertBraces: true
