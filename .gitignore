@@ -6,3 +6,15 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# binários e artefatos do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# binários compilados dos exercícios em C (gerados pelo Makefile e pelas tasks do VS Code)
+1-semestre/algoritmos/exercicios_em_C/*/main

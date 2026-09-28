@@ -3,12 +3,15 @@
 Professor: Eric — FATEC Olímpia/SP, 1º semestre de DSM.
 
 A matéria é dada e entregue em **pseudocódigo (VisuAlg)**, sempre com teste de mesa.
-Aqui os mesmos exercícios estão sendo **refeitos em Python**: a entrega oficial
-continua sendo o PDF em pseudocódigo, os `.py` são a versão praticada na linguagem.
+Aqui os mesmos exercícios são **refeitos em linguagens de verdade** (Python, Go e C):
+a entrega oficial continua sendo o PDF em pseudocódigo, o código é a versão praticada.
 
 | Pasta | O que é |
 |---|---|
-| [`exercicio1/`](exercicio1/) | Aula 05 — operadores, lógica, tabela-verdade e teste de mesa |
+| [`exercicio1/`](exercicio1/) | Aula 05 — operadores, lógica, tabela-verdade e teste de mesa, em Python (16 de 16, com testes automatizados) |
+| [`exercicio1_em_go/`](exercicio1_em_go/) | Os mesmos 16 exercícios da Aula 05 em Go (7 de 16) |
+| [`exercicios_em_C/`](exercicios_em_C/) | Os mesmos 16 exercícios da Aula 05 em C, com Makefile e tarefas do VS Code (16 de 16) |
+| [`aula_dia08_09/`](aula_dia08_09/) | Aula de 08/09 — laços de repetição e funções, com os fluxogramas no draw.io |
 
 ---
 
@@ -47,6 +50,22 @@ São 16 exercícios. Progresso da versão em Python: **16 de 16** — Partes A e
 
 ---
 
+## aula_dia08_09 — laços e funções (08/09/2026)
+
+Quatro exercícios que repetem até o usuário decidir parar (`while` com
+confirmação ou `try/except` para entrada inválida). Cada um tem o fluxograma
+feito no [draw.io](https://app.diagrams.net): o `.drawio` é o arquivo editável e
+o `.png` é a imagem exportada.
+
+| # | Problema | Python | Fluxograma |
+|---|---|---|---|
+| 1 | Multiplicação de dois números, recusando negativos | [`ex1.py`](aula_dia08_09/ex1.py) | [`multiplicacaocomcondicao`](multiplicacaocomcondicao.drawio.png) |
+| 2 | Valor da compra com ajuste percentual (aumento ou desconto) | [`ex2.py`](aula_dia08_09/ex2.py) | [`somacomajuste`](somacomajuste.drawio.png) |
+| 3 | Saque com taxa de 5%, sem deixar o saldo negativo | [`ex3.py`](aula_dia08_09/ex3.py) | [`saquecomtaxa`](saquecomtaxa.drawio.png) |
+| 4 | Saldo mês a mês, com depósito fixo de R$ 25 | [`ex4.py`](aula_dia08_09/ex4.py) | [`atualizacaosaldo`](atualizacaosaldo.drawio.png) |
+
+---
+
 ## Como rodar
 
 Só biblioteca padrão, nenhuma dependência:
@@ -69,4 +88,8 @@ python3 -m venv .venv && .venv/bin/pip install pytest   # só na primeira vez
 .venv/bin/pytest -v
 ```
 
-A venv fica em `exercicio1/.venv/`, fora do versionamento.
+A venv fica em `exercicio1/.venv/`, fora do versionamento. Os mesmos testes
+rodam no GitHub Actions a cada push nesta pasta (o selo no README da raiz).
+
+As versões em Go e em C têm as instruções no README de cada pasta:
+[`exercicio1_em_go/`](exercicio1_em_go/) e [`exercicios_em_C/`](exercicios_em_C/).

@@ -16,11 +16,18 @@ Registros das aulas de desenvolvimento web I, do curso de DSM da FATEC de Olímp
 | 4 | Listas e Links | [`aula04-listas-links/`](aula04-listas-links/) |
 | 5 | CSS | [`aula05-css/`](aula05-css/) |
 | 5 | CSS — exercício feito em aula | [`aula05-exercicio/`](aula05-exercicio/) |
+| 11 | Tabelas e estilização — exercício | [`exercicio_tabelas/`](exercicio_tabelas/tabelas_renan_croffi.html) |
 
 A aula 5 foi o primeiro contato com CSS: em `aula05-css/` o estilo é aplicado
 direto por seletor de elemento (`h1` e `nav`). Já o `aula05-exercicio/` é o
 exercício proposto na mesma aula, com foco nos **tipos de seletor**: `*`,
 elemento, `.classe`, `#id` e o seletor de filho `nav > ul`.
+
+O `exercicio_tabelas/` (aula 11) monta uma tabela de sabores e preços com
+`<table>`, `<tr>`, `<th>` e `<td>`, com uma imagem por linha e estilo em
+`assets/css/style.css`. É a primeira página com o cabeçalho padrão pedido pelo
+professor (comentário no topo com descrição, exercício, aluno e turma), e o
+arquivo segue a convenção de nome da entrega: `tabelas_renan_croffi.html`.
 
 ## Estrutura
 
@@ -42,9 +49,13 @@ aulas/
 ├── aula05-css/
 │   ├── assets/css/styles.css
 │   └── index.html
-└── aula05-exercicio/
+├── aula05-exercicio/
+│   ├── assets/css/style.css
+│   └── index.html
+└── exercicio_tabelas/
     ├── assets/css/style.css
-    └── index.html
+    ├── assets/img/            # fotos dos sabores
+    └── tabelas_renan_croffi.html
 ```
 
 Os caminhos de `href` e `src` devem ser **relativos** (`./assets/...`), para que a

@@ -6,8 +6,8 @@ aqui é a versão praticada na linguagem, como já foi feito em
 [`../exercicio1/`](../exercicio1/) (Python) e
 [`../exercicio1_em_go/`](../exercicio1_em_go/) (Go).
 
-Cada pasta tem um `main.c` com o enunciado e o teste de mesa no cabeçalho, e o
-corpo do `main` vazio pra resolver.
+Cada pasta tem um `main.c` com o enunciado e o teste de mesa no cabeçalho.
+Progresso: **16 de 16** resolvidos.
 
 ## Parte A — operadores matemáticos
 
