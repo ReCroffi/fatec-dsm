@@ -1,0 +1,21 @@
+table, th, td {
+  border: 1px solid #000000;
+  padding: 1px;
+}
+header{
+    text-align: center;
+    color: #fa0101;
+}
+.tabela{
+   text-align: center;
+    border-collapse: collapse;
+    background-color: #c0eb8f;
+}
+table th {
+    background-color: #fdba00;
+    color: #0004f8;
+}
+table td {
+   
+    color: #fd00e8;
+}
