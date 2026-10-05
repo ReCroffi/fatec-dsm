@@ -1,0 +1,31 @@
+#login {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ff0808;
+}
+
+nav {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+input:user-invalid {
+  border: 2px solid red;
+  animation: shake 1s ease-in-out 0s 1 normal none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+nav a :hover {
+  color: #ff0808;
+}
