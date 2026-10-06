@@ -9,13 +9,24 @@ turma: WEBI-ISW028-A
 
 #login {
   max-width: 400px;
+  background-color: #b2adad;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #000000;
-  
+}
+.form_input {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
+.button {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
 header {
   max-width: 400px;
   margin: 0 auto;
@@ -27,16 +38,15 @@ nav {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
-
 
 .links {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
-   margin: 0 4px;
+  margin: 0 4px;
 }
 .links:hover {
-  color: #797979;
- 
+  color: #565656;
 }
