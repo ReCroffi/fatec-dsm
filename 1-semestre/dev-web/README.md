@@ -12,4 +12,4 @@ Professor: Rodrigo Attique — FATEC Olímpia/SP, 1º semestre de DSM.
 [ReCroffi/situacao-aprendizagem-1](https://github.com/ReCroffi/situacao-aprendizagem-1) —
 blog pessoal com 3 páginas HTML interligadas + CSS, wireframes no Figma.
 
-O próximo passo é dobrá-lo para cá, em `1-semestre/dev-web/situacao-aprendizagem-1/`.
+Depois da correção do professor ele é dobrado para cá, em `1-semestre/dev-web/situacao-aprendizagem-1/`.

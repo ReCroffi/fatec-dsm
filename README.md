@@ -36,4 +36,4 @@ O histórico de commits original foi preservado via `git subtree`:
 
 Atividades ainda **em andamento** ficam em repositório próprio até a entrega, e só então
 são dobradas para cá. A [Situação de Aprendizagem 1](https://github.com/ReCroffi/situacao-aprendizagem-1)
-já foi entregue e ainda vai ser dobrada.
+já foi entregue e vai ser dobrada depois da correção.
