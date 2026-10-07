@@ -17,6 +17,7 @@ Registros das aulas de desenvolvimento web I, do curso de DSM da FATEC de Olímp
 | 5 | CSS | [`aula05-css/`](aula05-css/) |
 | 5 | CSS — exercício feito em aula | [`aula05-exercicio/`](aula05-exercicio/) |
 | 11 | Tabelas e estilização — exercício | [`exercicio_tabelas/`](exercicio_tabelas/tabelas_renan_croffi.html) |
+| 12 | Formulário de login com validação | [`aula12/`](aula12/login.html) |
 
 A aula 5 foi o primeiro contato com CSS: em `aula05-css/` o estilo é aplicado
 direto por seletor de elemento (`h1` e `nav`). Já o `aula05-exercicio/` é o
@@ -28,6 +29,11 @@ O `exercicio_tabelas/` (aula 11) monta uma tabela de sabores e preços com
 `assets/css/style.css`. É a primeira página com o cabeçalho padrão pedido pelo
 professor (comentário no topo com descrição, exercício, aluno e turma), e o
 arquivo segue a convenção de nome da entrega: `tabelas_renan_croffi.html`.
+
+O `aula12/` é um formulário de login (`<form>`, `<label>`, `<input type="email">`
+e `<input type="password">`) com o primeiro JavaScript da matéria: a função
+`validateForm()` em `assets/js/login.js` roda no `onsubmit` e avisa com `alert`
+se o e-mail ou a senha estiverem vazios. O estilo fica em `assets/css/login.css`.
 
 ## Estrutura
 
@@ -52,10 +58,14 @@ aulas/
 ├── aula05-exercicio/
 │   ├── assets/css/style.css
 │   └── index.html
-└── exercicio_tabelas/
-    ├── assets/css/style.css
-    ├── assets/img/            # fotos dos sabores
-    └── tabelas_renan_croffi.html
+├── exercicio_tabelas/
+│   ├── assets/css/style.css
+│   ├── assets/img/            # fotos dos sabores
+│   └── tabelas_renan_croffi.html
+└── aula12/
+    ├── assets/css/login.css
+    ├── assets/js/login.js
+    └── login.html
 ```
 
 Os caminhos de `href` e `src` devem ser **relativos** (`./assets/...`), para que a

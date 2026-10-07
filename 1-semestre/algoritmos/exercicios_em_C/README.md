@@ -1,13 +1,14 @@
 # exercicios_em_C
 
-Os mesmos 16 exercícios da Aula 05, refeitos em C — agora porque a aula da
-faculdade vai pedir em C. A entrega oficial continua sendo o PDF em pseudocódigo;
+Os 16 exercícios da Aula 05 refeitos em C, porque a aula da faculdade vai
+pedir em C, mais os 6 da lista de repetição com enquanto (aula de 06/10).
+A entrega oficial continua sendo o PDF em pseudocódigo;
 aqui é a versão praticada na linguagem, como já foi feito em
 [`../exercicio1/`](../exercicio1/) (Python) e
 [`../exercicio1_em_go/`](../exercicio1_em_go/) (Go).
 
-Cada pasta tem um `main.c` com o enunciado e o teste de mesa no cabeçalho.
-Progresso: **16 de 22** resolvidos.
+Cada pasta tem um `main.c` com o enunciado no cabeçalho (do 1 ao 16, também o teste de mesa).
+Progresso: **22 de 22** resolvidos.
 
 ## Parte A — operadores matemáticos
 

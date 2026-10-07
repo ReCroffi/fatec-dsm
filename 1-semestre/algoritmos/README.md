@@ -9,8 +9,8 @@ a entrega oficial continua sendo o PDF em pseudocódigo, o código é a versão 
 | Pasta | O que é |
 |---|---|
 | [`exercicio1/`](exercicio1/) | Aula 05 — operadores, lógica, tabela-verdade e teste de mesa, em Python (16 de 16, com testes automatizados) |
-| [`exercicio1_em_go/`](exercicio1_em_go/) | Os mesmos 16 exercícios da Aula 05 em Go (7 de 16) |
-| [`exercicios_em_C/`](exercicios_em_C/) | Os mesmos 16 exercícios da Aula 05 em C, com Makefile e tarefas do VS Code (16 de 16) |
+| [`exercicio1_em_go/`](exercicio1_em_go/) | Os mesmos 16 exercícios da Aula 05 em Go (13 de 16) |
+| [`exercicios_em_C/`](exercicios_em_C/) | Os 16 exercícios da Aula 05 em C, mais os 6 da lista de repetição com enquanto (06/10), com Makefile e tarefas do VS Code (22 de 22) |
 | [`aula_dia08_09/`](aula_dia08_09/) | Aula de 08/09 — laços de repetição e funções, com os fluxogramas no draw.io |
 
 ---
