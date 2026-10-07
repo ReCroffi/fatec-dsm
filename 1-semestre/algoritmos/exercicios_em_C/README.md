@@ -7,7 +7,7 @@ aqui é a versão praticada na linguagem, como já foi feito em
 [`../exercicio1_em_go/`](../exercicio1_em_go/) (Go).
 
 Cada pasta tem um `main.c` com o enunciado e o teste de mesa no cabeçalho.
-Progresso: **16 de 16** resolvidos.
+Progresso: **16 de 22** resolvidos.
 
 ## Parte A — operadores matemáticos
 
@@ -34,6 +34,17 @@ Progresso: **16 de 16** resolvidos.
 | 14 | Aprovação: nota >= 6 **E** frequência >= 75 | 7/80, 7/50, 5/80, 5/50 | [`ex14-aprovacao/`](ex14-aprovacao/main.c) |
 | 15 | Desconto: VIP **OU** compra >= 100 | 150/S, 150/N, 50/S, 50/N | [`ex15-desconto/`](ex15-desconto/main.c) |
 | 16 | Acesso: login **E** senha **E NÃO** bloqueado | as 8 combinações | [`ex16-login/`](ex16-login/main.c) |
+
+## Parte C — repetição com enquanto (aula de 06/10)
+
+| # | Problema | Teste de mesa | Arquivo |
+|---|---|---|---|
+| 17 | Somar e contar números até digitar 0 | — | [`ex17-soma-numeros-digitados/`](ex17-soma-numeros-digitados/main.c) |
+| 18 | Somar só os positivos entre 4 números | — | [`ex18-soma-positivos-4/`](ex18-soma-positivos-4/main.c) |
+| 19 | Somar de 1 até 10 | — | [`ex19-soma-1-a-10/`](ex19-soma-1-a-10/main.c) |
+| 20 | Média só dos positivos entre 10 números | — | [`ex20-media-positivos-10/`](ex20-media-positivos-10/main.c) |
+| 21 | Contar positivos, negativos e zeros entre 6 números | — | [`ex21-contar-pos-neg-zero/`](ex21-contar-pos-neg-zero/main.c) |
+| 22 | Menu de conta bancária (saldo inicial R$ 2.000,00) | — | [`ex22-menu-conta-bancaria/`](ex22-menu-conta-bancaria/main.c) |
 
 ---
 
