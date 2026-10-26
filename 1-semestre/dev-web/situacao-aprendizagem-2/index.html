@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Acesso Administrativo</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navigation" aria-label="Navegação principal">
+      <a href="./index.html">Início</a>
+      <a href="./registro.html">Registrar</a>
+    </nav>
+
+    <header class="header">
+      <h1>Bem-vindo ao Sistema Administrativo</h1>
+    </header>
+    <form id="loginForm">
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Entrar</button>
+      <button type="button" onclick="window.location.href = './registro.html'">
+        Registrar
+      </button>
+      <button type="button" onclick="window.location.href = '/forgot-password'">
+        Esqueci minha senha
+      </button>
+      <p id="loginMessage" role="alert"></p>
+    </form>
+
+    
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Meu Perfil</h1>
+      <nav class="navigation">
+        <a href="./index.html" id="logoutLink">Sair</a>
+      </nav>
+    </header>
+    <form id="profileForm">
+      <div class="profile-photo">
+        <img
+          id="profilePhoto"
+          src="https://placehold.co/120x120/e7f2e9/16803c?text=Foto"
+          alt="Foto do perfil"
+        />
+        <label for="photo">Foto de perfil:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" disabled />
+      </div>
+
+      <label for="name">Nome completo:</label>
+      <input type="text" id="name" name="name" value="Administrador" disabled />
+
+      <label for="username">Nome de usuário:</label>
+      <input type="text" id="username" name="username" value="admin" disabled />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" value="admin@email.com" disabled />
+
+      <label for="phone">Telefone:</label>
+      <input type="tel" id="phone" name="phone" value="(11) 99999-9999" disabled />
+
+      <label for="bio">Biografia:</label>
+      <textarea id="bio" name="bio" disabled>Administrador do sistema.</textarea>
+
+      <button type="button" id="editButton">Editar perfil</button>
+      <button type="submit" id="saveButton" hidden>Salvar alterações</button>
+      <button type="button" id="cancelButton" hidden>Cancelar</button>
+      <p id="profileMessage" role="status"></p>
+    </form>
+
+    <script src="./assets/js/perfil.js" defer></script>
+  </body>
+</html>
