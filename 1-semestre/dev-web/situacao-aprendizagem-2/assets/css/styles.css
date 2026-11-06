@@ -1,0 +1,24 @@
+:root{
+    --fundo_sidebar: #01303F;
+    --realce_sidebar: #02577A;
+    --destaque: #02A9F7;
+    --claro: #D4F0FC;
+    --borda: #89D6FB;
+    --superficie: #FFFFFF;
+    --texto_forte: #01303F;
+    --texto_suave: #02577A;
+    --fonte: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+    background-color: var(--superficie);
+    color: var(--texto_forte);
+}
