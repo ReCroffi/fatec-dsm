@@ -21,3 +21,40 @@ body {
   background-color: var(--superficie);
   color: var(--texto_forte);
 }
+
+.pagina {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: var(--fundo_sidebar);
+  width: 360px;
+  min-height: 100vh;
+}
+
+.mainindex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 64px 30px;
+}
+.login {
+  width: 440px;
+
+  margin: 0 auto;
+}
+
+.textos {
+  width: 440px;
+  margin: 0 auto;
+}
+
+.rodape {
+  margin-top: auto;
+
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--borda);
+  padding-top: 20px;
+}
