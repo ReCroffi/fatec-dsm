@@ -1,16 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - NovaWeb</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-</body>
-</html>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <div class="pagina">
+      <aside class="sidebar">
+        <span class="area">Área Pessoal</span>
+        <p class="slogan">Seu espaço.</p>
+        <p class="slogan">Mais simples.</p>
+        <p class="subtexto">
+          Acesse sua conta e mantenha tudo o que importa em um só lugar.
+        </p>
+        <ol class="passos">
+          <li><a href="index.html" aria-current="page">Acesse sua conta</a></li>
+          <li><a href="cadastro.html">Crie seu cadastro</a></li>
+          <li><a href="perfil.html">Cuide do seu perfil</a></li>
+        </ol>
+        <p class="fimpagina">SIMPLES. CONECTADO. SEU.</p>
+      </aside>
+      <main>
+        <span class="titulo">01 / LOGIN</span>
+        <h1 class="boas-vindas">Boas-vindas de volta</h1>
+        <p class="sub-boas-vindas">Entre com seus dados para continuar.</p>
+        <form class="login" action="perfil.html" method="get">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="voce@exemplo.com"
+            required
+          />
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Digite sua senha"
+            required
+          />
+          <div class="opcoes">
+            <label>
+              <input type="checkbox" name="lembrar" id="lembrar" />
+              Lembrar de mim
+            </label>
+            <a href="#">Esqueci minha senha</a>
+          </div>
+          <button type="submit">Entrar na conta</button>
+          <div class="chamada-cadastro">
+            <p>Ainda não tem uma conta?</p>
+            <a href="cadastro.html">Cadastre-se</a>
+          </div>
+        </form>
+        <footer class="rodape">
+          <a href="#">Privacidade</a>
+          <a href="#">Ajuda</a>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
