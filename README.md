@@ -18,8 +18,8 @@ próprio `README.md` com o que foi feito ali.
 
 | Matéria | Conteúdo | Status |
 |---|---|---|
-| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS até a Aula 05, exercício de seletores, de tabelas e formulário de login com validação em JavaScript (aula 12); SA1 entregue, em repo próprio | ✅ com material |
-| [Algoritmos e Lógica de Programação](1-semestre/algoritmos/) | Exercícios da Aula 05 refeitos em Python (16 de 16, com testes), C (22 de 22, com a lista de repetição de 06/10) e Go (13 de 16); laços e funções da aula de 08/09, com fluxogramas | ✅ com material |
+| [Desenvolvimento Web I](1-semestre/dev-web/) | Aulas de HTML/CSS até a Aula 05, exercício de seletores, de tabelas, formulário de login com validação em JavaScript (aula 12) e formulários de perfil e cadastro (aula 13); SA1 entregue, em repo próprio; SA2 (NovaWeb) em andamento, com a tela de login pronta | ✅ com material |
+| [Algoritmos e Lógica de Programação](1-semestre/algoritmos/) | Exercícios da Aula 05 refeitos em Python (16 de 16, com testes), C (22 de 22, com a lista de repetição de 06/10) e Go (13 de 16); laços e funções da aula de 08/09, com fluxogramas; tratamento de erros em C (20/10) | ✅ com material |
 | [Modelagem de Banco de Dados](1-semestre/modelagem-bd/) | — | 🔜 |
 | [Engenharia de Software I](1-semestre/eng-software/) | — | 🔜 |
 | [Sistemas Operacionais e Redes](1-semestre/so-redes/) | — | 🔜 |
@@ -34,6 +34,6 @@ O histórico de commits original foi preservado via `git subtree`:
 
 - `ReCroffi/Dev_Web_FATEC` → `1-semestre/dev-web/aulas/` (repo original arquivado)
 
-Atividades ainda **em andamento** ficam em repositório próprio até a entrega, e só então
-são dobradas para cá. A [Situação de Aprendizagem 1](https://github.com/ReCroffi/situacao-aprendizagem-1)
+Atividades ainda **em andamento** ficavam em repositório próprio até a entrega, e só então
+eram dobradas para cá (a SA2 já nasceu direto aqui). A [Situação de Aprendizagem 1](https://github.com/ReCroffi/situacao-aprendizagem-1)
 já foi entregue e vai ser dobrada depois da correção.

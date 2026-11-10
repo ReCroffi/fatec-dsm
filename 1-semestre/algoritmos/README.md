@@ -12,6 +12,7 @@ a entrega oficial continua sendo o PDF em pseudocódigo, o código é a versão 
 | [`exercicio1_em_go/`](exercicio1_em_go/) | Os mesmos 16 exercícios da Aula 05 em Go (13 de 16) |
 | [`exercicios_em_C/`](exercicios_em_C/) | Os 16 exercícios da Aula 05 em C, mais os 6 da lista de repetição com enquanto (06/10), com Makefile e tarefas do VS Code (22 de 22) |
 | [`aula_dia08_09/`](aula_dia08_09/) | Aula de 08/09 — laços de repetição e funções, com os fluxogramas no draw.io |
+| [`aula_tratamento_erro/`](aula_tratamento_erro/) | Aula de 20/10 — tratamento de erros (validação da entrada), com um desafio em C |
 
 ---
 
@@ -63,6 +64,15 @@ o `.png` é a imagem exportada.
 | 2 | Valor da compra com ajuste percentual (aumento ou desconto) | [`ex2.py`](aula_dia08_09/ex2.py) | [`somacomajuste`](somacomajuste.drawio.png) |
 | 3 | Saque com taxa de 5%, sem deixar o saldo negativo | [`ex3.py`](aula_dia08_09/ex3.py) | [`saquecomtaxa`](saquecomtaxa.drawio.png) |
 | 4 | Saldo mês a mês, com depósito fixo de R$ 25 | [`ex4.py`](aula_dia08_09/ex4.py) | [`atualizacaosaldo`](atualizacaosaldo.drawio.png) |
+
+---
+
+## aula_tratamento_erro — tratamento de erros (20/10/2026)
+
+O [`desafio/main.c`](aula_tratamento_erro/desafio/main.c), em C, faz uma pesquisa
+de satisfação com 10 participantes. Cada nota vai de 1 a 5 e, se vier fora dessa
+faixa, o `while` pede de novo até a entrada ser válida. No fim mostra a média das
+notas, quantos deram 5 e quantos deram 1 ou 2.
 
 ---
 

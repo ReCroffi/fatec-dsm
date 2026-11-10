@@ -18,6 +18,7 @@ Registros das aulas de desenvolvimento web I, do curso de DSM da FATEC de Olímp
 | 5 | CSS — exercício feito em aula | [`aula05-exercicio/`](aula05-exercicio/) |
 | 11 | Tabelas e estilização — exercício | [`exercicio_tabelas/`](exercicio_tabelas/tabelas_renan_croffi.html) |
 | 12 | Formulário de login com validação | [`aula12/`](aula12/login.html) |
+| 13 | Elementos avançados de formulário: perfil e cadastro com validação | [`aulaHTML13/`](aulaHTML13/perfil.html) |
 
 A aula 5 foi o primeiro contato com CSS: em `aula05-css/` o estilo é aplicado
 direto por seletor de elemento (`h1` e `nav`). Já o `aula05-exercicio/` é o
@@ -34,6 +35,16 @@ O `aula12/` é um formulário de login (`<form>`, `<label>`, `<input type="email
 e `<input type="password">`) com o primeiro JavaScript da matéria: a função
 `validateForm()` em `assets/js/login.js` roda no `onsubmit` e avisa com `alert`
 se o e-mail ou a senha estiverem vazios. O estilo fica em `assets/css/login.css`.
+
+O `aulaHTML13/` (aula 13) usa os elementos de formulário que faltavam:
+`radio`, `checkbox`, `<select>`, `<textarea>` e o campo oculto
+(`<input type="hidden">`). Tem duas páginas ligadas por links, `perfil.html`
+(e-mail, senha, sexo, interesses, curso e "sobre você") e `cadastro.html`
+(nome, e-mail, senha, confirmação da senha e termos de uso), com o link "Esqueci
+minha senha" apontando para `#`. As duas dividem o `main.css` e o `main.js`, que
+traz `validarPerfil()` e `validarCadastro()`, no mesmo estilo da aula 12 (`alert`
+e `return false`). Aqui os arquivos ficam na mesma pasta, sem `assets/`, como pediu
+o enunciado.
 
 ## Estrutura
 
@@ -62,10 +73,15 @@ aulas/
 │   ├── assets/css/style.css
 │   ├── assets/img/            # fotos dos sabores
 │   └── tabelas_renan_croffi.html
-└── aula12/
-    ├── assets/css/login.css
-    ├── assets/js/login.js
-    └── login.html
+├── aula12/
+│   ├── assets/css/login.css
+│   ├── assets/js/login.js
+│   └── login.html
+└── aulaHTML13/
+    ├── cadastro.html
+    ├── main.css
+    ├── main.js
+    └── perfil.html
 ```
 
 Os caminhos de `href` e `src` devem ser **relativos** (`./assets/...`), para que a
