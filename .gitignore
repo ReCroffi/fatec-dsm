@@ -18,3 +18,6 @@ __pycache__/
 
 # binários compilados dos exercícios em C (gerados pelo Makefile e pelas tasks do VS Code)
 1-semestre/algoritmos/exercicios_em_C/*/main
+
+# binários compilados da aula de tratamento de erros (C)
+1-semestre/algoritmos/aula_tratamento_erro/*/main
