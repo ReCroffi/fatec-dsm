@@ -1,0 +1,54 @@
+/*
+descricao: Exercicio aula 13.
+nome_arquivo: main.css
+nome_exercicio: Exercício 13 - Formulários de Perfil e Cadastro
+nome_aluno: Renan Croffi
+email_aluno: renan.croffi@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+
+#perfil,
+#cadastro {
+  max-width: 400px;
+  background-color: #b2adad;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+
+.form_input {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  text-align: center;
+}
+
+header {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #082ed693;
+}
+
+nav {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin: 0 4px;
+}
+
+.links:hover {
+  color: #565656;
+}
